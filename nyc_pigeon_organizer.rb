@@ -12,5 +12,6 @@ def nyc_pigeon_organizer(data)
           result[name][color_gender_lives] = {}
         end
     
+    result[name][color_gender_lives] << 
   
 end
