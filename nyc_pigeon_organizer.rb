@@ -1,6 +1,7 @@
 def nyc_pigeon_organizer(data)
   result ={}
   
-  data.each {|information, values|}
+  data.each do |information, values|
+    
   
 end
