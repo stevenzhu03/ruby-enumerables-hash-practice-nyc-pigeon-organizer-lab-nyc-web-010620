@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if !result[name][color_gender_lives]
-          result[name][color_gender_lives] = {}
+          result[name][color_gender_lives] = []
         end
     
     result[name][color_gender_lives] << stat.to_s
