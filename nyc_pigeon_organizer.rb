@@ -14,8 +14,9 @@ def nyc_pigeon_organizer(data)
     
     result[name][color_gender_lives] << stat.to_s
     
+      end
+    end
   end
-end
-end
+  
   result
 end
